@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: poppins;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar span {
+    color: orange;
+}
+
+.first span {
+    color: orange;
+}
+
+.navbar button {
+    color: white;
+    background-color: orange;
+    border: orange;
+    padding: 5px;
+    font-family: poppins;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.navbar svg {
+    cursor: pointer;
+}
+
+.first {
+    margin: px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.first h1 {
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-weight: 500;
+    padding: 50px;
+}
+
+.ExploreFood {
+    color: white;
+    background-color: orange;
+    border: orange;
+    padding: 5px;
+    font-family: poppins;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+    filter: drop-shadow(1px 1px 20px orange);
+}
+
+.ExploreFood:hover {
+    background-color: orange;
+    box-shadow: orange;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.ExploreFood:active {
+    transform: translateY(-1px);
+}
+
+.delivery {
+    width: 590px;
+    filter: drop-shadow(1px 1px 20px orange);
+}
+
+.title {
+    cursor: default;
+}
+
+/* fieldset {
+    box-shadow: 0px 15px 30px rgb(22, 22, 22);
+    border: solid orange;
+    border-radius: 10px;
+    font-family: poppins;
+    padding: 20px;
+    margin: 20px;
+    size: 50px;
+
+    align-content: center;
+}
+
+legend {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    padding: 5px;
+    text-align: center;
+}
+
+label {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin: 100px 0 5px 100;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid orange;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 19px;
+    font-family: poppins;
+    cursor: text;
+}
+
+button {
+    color: white;
+    background-color: orange;
+    border: orange;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: poppins;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    filter: drop-shadow(1px 1px 20px orange);
+}
+
+button:hover {
+    background-color: orange;
+    box-shadow: orange;
+    color: white;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+} */
